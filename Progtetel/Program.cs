@@ -27,6 +27,16 @@ namespace Progtetel
             Console.WriteLine();
 
             //Maximum kiválasztás - 2
+
+            int maxe = 0;
+            for (int i = 1; i < x.Length; i++)
+            {
+                if (x[i] > x[maxe])
+                {
+                    maxe = i;
+                }
+            }
+            Console.WriteLine($"A tömb maximuma {maxe}");
         }
     }
 }
