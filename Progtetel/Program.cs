@@ -11,6 +11,16 @@ namespace Progtetel
             //Párosok kiválogatása - 1
 
             //Maximum kiválasztás - 2
+
+            int maxe = 0;
+            for (int i = 1; i < x.Length; i++)
+            {
+                if (x[i] > maxe)
+                {
+                    maxe = x[i];
+                }
+            }
+            Console.WriteLine($"A tömb maximuma {maxe}");
         }
     }
 }
