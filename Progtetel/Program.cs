@@ -15,9 +15,9 @@ namespace Progtetel
             int maxe = 0;
             for (int i = 1; i < x.Length; i++)
             {
-                if (x[i] > maxe)
+                if (x[i] > x[maxe])
                 {
-                    maxe = x[i];
+                    maxe = i;
                 }
             }
             Console.WriteLine($"A tömb maximuma {maxe}");
