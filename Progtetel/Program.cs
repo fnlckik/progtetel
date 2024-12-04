@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Progtetel
 {
@@ -10,6 +6,11 @@ namespace Progtetel
     {
         static void Main(string[] args)
         {
+            int[] x = { 7, 2, -4, 5, 12, 1 };
+
+            //Párosok kiválogatása - 1
+
+            //Maximum kiválasztás - 2
         }
     }
 }
