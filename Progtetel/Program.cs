@@ -20,6 +20,7 @@ namespace Progtetel
                     db++;
                 }
             }
+            Console.Write("Páros számok: ");
             for (i = 0; i < db; i++)
             {
                 Console.Write(parosak[i] + " ");
@@ -29,14 +30,14 @@ namespace Progtetel
             //Maximum kiválasztás - 2
 
             int maxe = 0;
-            for (int i = 1; i < x.Length; i++)
+            for (i = 1; i < x.Length; i++)
             {
                 if (x[i] > x[maxe])
                 {
                     maxe = i;
                 }
             }
-            Console.WriteLine($"A tömb maximuma {maxe}");
+            Console.WriteLine($"A tömb maximuma: {maxe}");
         }
     }
 }
